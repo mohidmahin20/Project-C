@@ -28,7 +28,7 @@ char lbStr[2];
 
 void createHTML(){
 	FILE *pFile = fopen("score.html", "w");
-	fprintf(pFile, "<html><body><h1>Cricbuzz</h1><h3>");
+	fprintf(pFile, "<html><body><h1>Daffodil Premier league</h1><h3>");
 
 	fprintf(pFile , content);
 
