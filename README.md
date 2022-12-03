@@ -1,3 +1,3 @@
 # Project-C
 
-Live Criket Score 
+Live Cricket Score 
