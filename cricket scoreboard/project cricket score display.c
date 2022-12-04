@@ -38,6 +38,17 @@ void createHTML(){
 }
 
 int main(){
+    int id,pass;
+    x:
+    printf("\n\nEnter Your ID: ");
+    scanf("%d",&id);
+    printf("Enter Your Password: ");
+    scanf("%d",&pass);
+    if(id!=111 || pass!=222){
+        system("clear");
+        printf("\n\nWrong ID or Password\n");
+        goto x;
+    }
 	int score;
 
 
